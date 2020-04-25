@@ -4,7 +4,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TaxistaTests {
 
-
+    //Enumerator
+    //Test-per-method
     @Test
     public void test1(){
         Taxista taxista = new Taxista("Manel", 25,"Mercedes");
@@ -13,7 +14,8 @@ public class TaxistaTests {
 
     }
 
-
+    //Enumerator
+    //Test-per-method
     @Test
     public void test2(){
         Taxista taxista = new Taxista("Manel", 25,"Mercedes");
@@ -21,7 +23,7 @@ public class TaxistaTests {
         assertEquals((Integer)30, taxista.getAge());
     }
 
-
+    //Test-per-method
     @Test
     public void testName_Car(){
         Taxista taxista = new Taxista("Manel", 25,"Mercedes");
